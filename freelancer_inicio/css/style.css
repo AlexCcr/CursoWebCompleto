@@ -1,0 +1,31 @@
+header {
+    background-color: white;
+    padding: 1em;
+}
+
+body {
+    margin: 0;
+    background: rgb(171,107,74);
+    background: linear-gradient(145deg, rgba(171,107,74,1) 12%, rgba(113,106,94,1) 53%, rgba(22,69,76,1) 100%);
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 20px;
+}
+
+.titulo {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.titulo span {
+    text-transform: none;
+    font-size: 2rem;
+}
+
