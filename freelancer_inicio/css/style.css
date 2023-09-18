@@ -54,18 +54,38 @@ body {
 
 .navegation-main {
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
+@media(min-width: 760px) {
+    .navegation-main {
+        flex-direction: row;
+    }
+}
+
+.navegation-main a {
+    padding: 1rem;
+    color:var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navegation-main a:hover {
+    background-color: var(--anaranjado);
+    color:var(--negro);
+}
 
 .contenedor {
     width: 120rem;
-    margin-top:0px;
-    margin-bottom: 0px;
-    margin-right: auto;
-    margin-left: auto;
-
+    margin: 0 auto;
 }
+
+
+
+
+
+
 
 
 
