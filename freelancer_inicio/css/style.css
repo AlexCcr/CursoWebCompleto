@@ -48,5 +48,31 @@ body {
     background: linear-gradient(145deg, rgba(171,107,74,1) 12%, rgba(113,106,94,1) 53%, rgba(22,69,76,1) 100%);
 }
 
+.nav-bg {
+    background-color: var(--verde);
+}
+
+.navegation-main {
+    display: flex;
+    flex-direction:row;
+}
+
+
+.contenedor {
+    width: 120rem;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+
+
+
+
+
+
 
 
