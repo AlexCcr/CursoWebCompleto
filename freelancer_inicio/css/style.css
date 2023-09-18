@@ -1,5 +1,44 @@
+:root {
+    --blanco: #ffffff;
+    --anaranjado: #ffbf00;
+    --gris: #757575;
+    --verde: #0097A7;
+    --negro: #212121;
+    --font-family-title: 'Kaisei Opti', 'serif';
+    --font-family-text: 'Quattrocento Sans', 'sans-serif';
+    --font-size-title: 3.8 rem;
+}
+
+/* Fuente*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family-text);
+    font-size: 20px;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-family: var(--font-family-title);
+    color: var(--negro);
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.titulo span {
+    color: var(--negro);
+    font-weight: 400;
+    text-transform: none;
+    font-size: 2rem;
+}
+
+
+
+/* Diseño*/
 header {
-    background-color: white;
+    background-color: var(--blanco);
     padding: 1em;
 }
 
@@ -10,22 +49,4 @@ body {
 }
 
 
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-size: 20px;
-}
-
-.titulo {
-    text-transform: uppercase;
-    color: black;
-    text-align: center;
-    font-size: 2.8rem;
-}
-.titulo span {
-    text-transform: none;
-    font-size: 2rem;
-}
 
